@@ -12,3 +12,5 @@ This is a step by step PHP 8 & MySQL REST API, In this moment i am going to shar
  - ``` http://localhost:8080/api.php?function=update_user``` Update records
  - ``` http://localhost:8080/api.php?function=delete_user``` Delete records
  
+## FYI
+it's not best practice to create a rest api
