@@ -1,11 +1,9 @@
 <?php
 
-$koneksi = mysqli_connect("localhost","root","","informatika");
-if (!$koneksi)
-{
+$koneksi = mysqli_connect("localhost", "root", "", "informatika");
+if (!$koneksi) {
 
-	die("error status:".mysqli_connect_error());
-}
-else {
+	die("error status:" . mysqli_connect_error());
+} else {
 	return $koneksi;
 }
